@@ -1,6 +1,4 @@
 .jumbo {
-    background-image: url("img/.jumbo-bg.png");
-    background-color: #cccccc;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,23 +16,25 @@
 }
 
 
-.card {
-    border: solid #418DD8 2px;
-    border-radius: 20px;
-    background-image: url("img/tony-hawks-pro-skater-1-2-store-art.jpg");
-}
-
-.seven {
+.seven, .six {
     background-color: #1F1F1F;
     color: #fff;
 }
 
-.eight, .eleven, .fourteen, .twelve, .five, .nine {
+.eight, .eleven, .fourteen, .twelve, .five, .nine, .two {
     text-align: center;
 }
 
-h5, h4, h3 {
+h4, h3 {
     color: #777777;
+}
+
+h5, h2, p {
+    color: #fff;
+}
+
+h2 {
+    font-size: 2em;
 }
 
 footer {
@@ -42,7 +42,22 @@ footer {
     color: #fff;
 }
 
-.text-footer {
+.text-footer, .black-nav {
     text-align: end;
 }
+
+.black-nav {
+    text-align: end;
+    background-color: black;
+}
+
+.thirteen {
+    background-color: #161C3B;
+}
+
+.text {
+    text-transform: uppercase;
+    color: #0070D1;
+}
+
 
