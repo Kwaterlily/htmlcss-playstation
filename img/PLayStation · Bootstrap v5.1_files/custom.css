@@ -15,6 +15,7 @@
   
 }
 
+
 .seven, .six {
     background-color: #1F1F1F;
     color: #fff;
@@ -78,13 +79,6 @@ footer {
     transition-duration: 1.5s;
 }
 
-.seven .item:hover {
-    box-shadow: -2px 0px 18px 1px #777777;
-    -webkit-box-shadow: -2px 0px 18px 1px #777777;
-    -moz-box-shadow: -2px 0px 18px 1px #777777;
-    transition-duration: 1.5s;
-}
-
 .five .item {
     border: 3px solid #fff;
     border-radius: 15px 15px 15px 15px;
@@ -92,27 +86,8 @@ footer {
 .five .item:active {
     border-color: #0070D1;
     border-radius: 15px 15px 15px 15px;
-    transition-duration: 1.5s;
 }
 
-.one .btn {
-    border:  solid 2px #CD3C10;
-}
-
-.one .btn-border:active {
-    box-shadow: -2px 0px 18px 1px #CD3C10;
-    border:  solid 2px #CD3C10;
-    
-}
-
-.six .btn {
-    border:  solid 2px #CD3C10;
-}
-
-.six .btn-border:active {
-    box-shadow: -2px 0px 18px 1px #CD3C10;
-    border:  solid 2px #CD3C10;
-}
 
 .btn-border {
     border-radius: 15px 15px 15px 15px;
@@ -122,38 +97,15 @@ footer {
     background-color: #fff;
 }
 
-.nine .btn {
-    background-color: #2C64E6;
-    border:  solid 2px #2C64E6;
-    color: #fff;
-} 
-
-.four .btn {
-    background-color: #2C64E6;
-    border:  solid 2px #2C64E6;
-    color: #fff;
-}
-
-.four .btn-border:active {
-    box-shadow: -2px 0px 18px 1px #0070D1;
-    border:  solid 2px #2C64E6;
-}
-
 .ten {
     background-color: #BEBCBB;
 }
-
 .ten .btn {
     background-color: #D9DADC;
     border:  solid 2px D9DADC;
 }
 
-.nine .btn-border:active {
-    box-shadow: -2px 0px 18px 1px #0070D1;
-    border:  solid 2px #2C64E6;
-}
-
-.ten .btn-border:active {
+.ten .btn-border:hover {
     box-shadow: -2px 0px 18px 1px #D9DADC;
 }
 
@@ -165,7 +117,7 @@ footer {
     width: 100%;
 }
 
-.thirteen .btn-border:active {
+.thirteen .btn-border:hover {
     box-shadow: -2px 0px 18px 1px #0070D1;
 }
 

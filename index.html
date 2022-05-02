@@ -19,26 +19,43 @@
     
     <header class="p-7 border-bottom">
       <div class="container-fluid black-nav">
-        <img height="15" src="img/Sony_logo_(white).svg.png" alt="">
+        <img height="15" width="80" src="img/sony_logo.svg" alt="">
       </div>
         
-        <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+        <div class="container col-11">
+          <div class="d-flex flex-wrap align-items-center justify-content-lg-start">
+            <a href="/" class="d-flex  mb-2 mb-lg-0 text-dark text-decoration-none">
               <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
             </a>
     
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <ul class="nav col-md-6 col-xxl-6  me-lg-auto mb-2 mb-md-0">
               <li> <img src="img/play_logo.svg" alt="logo"></li>
-              <li><a href="#" class="nav-link px-2 link-secondary">Giochi</a></li>
-              <li><a href="#" class="nav-link px-2 link-dark">Hardware</a></li>
-              <li><a href="#" class="nav-link px-2 link-dark">Servizi</a></li>
-              <li><a href="#" class="nav-link px-2 link-dark">Novità</a></li>
-              <li><a href="#" class="nav-link px-2 link-dark">Fai acquisti</a></li>
-              <li><a href="#" class="nav-link px-2 link-dark">Supporto</a></li>
+              <li><a href="#" class="nav-link px-2 py-3 link-secondary">Giochi</a></li>
+              <li><a href="#" class="nav-link px-2 py-3 link-dark">Hardware</a></li>
+              <li><a href="#" class="nav-link px-2 py-3 link-dark">Servizi</a></li>
+              <li><a href="#" class="nav-link px-2 py-3 link-dark">Novità</a></li>
+              <li><a href="#" class="nav-link px-2 py-3 link-dark">Fai acquisti</a></li>
+              <li><a href="#" class="nav-link px-2 py-3 link-dark">Supporto</a></li>
             </ul>
 
-            <div class="dropdown">
+            <!-- <nav class="navbar navbar-light bg-light">
+              <div class="container-fluid">
+                <button class="navbar-toggler ms-auto" type="button" data-mdb-toggle="collapse"
+                  data-mdb-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent3"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-bars"></i>
+                </button>
+              </div>
+            </nav>
+            <div class="collapse" id="navbarToggleExternalContent3">
+              <div class="bg-light shadow-3 p-4">
+                <button class="btn btn-link btn-block border-bottom m-0">Link 1</button>
+                <button class="btn btn-link btn-block border-bottom m-0">Link 2</button>
+                <button class="btn btn-link btn-block m-0">Link 3</button>
+              </div>
+            </div> -->
+
+            <!-- <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown button
               </button>
@@ -47,68 +64,41 @@
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
+            </div> -->
+            
+            <div class="col-2">
+                <a class="col-6 text-decoration-none px-2 link-dark" href="#" class="nav-link px-3 py-3 link-dark">My PLayStation</a>  
+                <button type="button" class="btn btn-outline-light me-2">Accedi</button>     
+                <img src="img/lens.svg" alt="mdo" width="32" height="32" class="rounded-circle py-2 "> 
+              </ul>
             </div>
-
-            <li><a href="#" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 link-dark px-2">My PLayStation</a></li>
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                <button type="button" class="btn btn-outline-light me-2">Accedi</button>
-            </form>
-            <div class="dropdown text-end">
-                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="img/lens.svg" alt="mdo" width="32" height="32" class="rounded-circle">
-                </a>
-              </div>
           </div>
         </div>
      </header>
 
       <main>
-        <!-- qui -->
-        <!-- <section class="one jumbo">
-          <div class="container-fluid py-5 col-11">
-            <div class="row align-items-center">
-              <div class="col py-5"><h2 class="py-3 display-5 fw-light">Rombi il cerchio</h2>
-              <p class="col-md-5 py-5 fs-4 fw-light">Rialzati doppo ogni sconfitta e affronta una nuona sfida con ogni rinascita in questo esplosivo thrille fantascientifico, disponibile in esclusiva su PS5.</p>
-              <button class="col btn btn-primary btn-lg" type="button">Maggiori informazioni</button>
-            </div>
-          </div>
-        </section> -->
-
-        <section class="jumbo" style="background-image: url(img/jumbo-bg.png);">
-          <div class="row">
-            <div class="container-fluid for-about">
-              <!-- <div class="col py-5"><h2 class="py-3 display-5 fw-light">Rombi il cerchio</h2>
-                <p class="col-md-5 py-5 fs-4 fw-light">Rialzati doppo ogni sconfitta e affronta una nuona sfida con ogni rinascita in questo esplosivo thrille fantascientifico, disponibile in esclusiva su PS5.</p>
-                <button class="col btn btn-primary btn-lg" type="button">Maggiori informazioni</button>
-              </div> -->
+      
+        <section class="one" style="background-image: url(img/jumbo-bg.png);" style="background-repeat: no-repeat;" style="background  position: center">
+          <div class="py-5 container-fluid col-10">
+            <div class="col-sm-12 py-4 pt-5"><img class="pt-5" width="300" src="img/returnal-hero-banner-logo.png" alt=""></div>
+            <div class="row align-items-center ms mpy-5">
+              <div class="col col-xxl-8">
+                <h2 class="col-sm-12 col-xxl-4 display-5 fw-light" style="color: #fff">Rombi il cerchio</h2>
+                <p class="col-sm-12 col-xxl-4 py-4 fs-5 fw-light" style="color: #fff">Rialzati doppo ogni sconfitta e affronta una nuona sfida con ogni rinascita in questo esplosivo thrille fantascientifico, disponibile in esclusiva su PS5.</p>
+              <button class="col btn btn-border" style="color: #fff; background-color: #CD3C10;" type="button">Acquista ora</button>
             </div>
           </div>
         </section>
         
-
-
-
-
-        <!-- <section class="py-5 container-fluid one">
-          <div class="row">
-            <div class="col py-5">
-              <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-              <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-              <button class="btn btn-primary btn-lg" type="button">Example button</button>
-          </div>
-          </div>
-          
-        </section> -->
-
         <section class="two">
-          <div class="container-fluid col-11 py-5">
+          <div class="container-fluid col-10 py-5">
             <div class="row">
-              <div class="col py-3"><div><img height="100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div></div>
-              <div class="col py-3"> <div><img height="100" src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div></div>
-              <div class="col py-3"><div><img height="100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div></div>
-              <div class="col py-3"> <div><img height="100" src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div></div>
-              <div class="col py-3"><div><img height="100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div></div>
-              <div class="col py-3"> <div><img height="100" src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div></div>
+              <div class="col-xs-6 col-sm-4 col-xxl-2 py-3"><div><img class=" item" height="100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div></div>
+              <div class="col-xs-6 col-sm-4 col-xxl-2 py-3"> <div><img class=" item" height="100" src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div></div>
+              <div class="col-xs-6 col-sm-4 col-xxl-2 py-3"><div><img class=" item" height="100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div></div>
+              <div class="col-xs-6 col-sm-4 col-xxl-2 py-3"> <div><img class=" item" height="100" src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div></div>
+              <div class="col-xs-6 col-sm-4 col-xxl-2 py-3"><div><img class=" item" height="100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div></div>
+              <div class="col-xs-6 col-sm-4 col-xxl-2 py-3"> <div><img  class=" item"height="100" src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div></div>
           </div>
         </section>
   
@@ -126,35 +116,25 @@
         <section class="four">
           <div class="container-fluid col-11">
             <div class="row align-items-center">
-              <div class="col-sm-12 col-xxl-6">
+              <div class="col-sm-12 col-md-6 col-xxl-6">
               <h2 class="col display-5 fw-light" style="color: #000001;">Console PlayStation 5</h2>
               <p class="col-md-9 py-4 fs-5 fw-light" style="color: #7F7F7F">Sperimenta la nuova generazione di incredibili giochi PlayStation.</p>
-              <button class="col btn btn-primary btn-lg" type="button">Maggiori informazioni</button>
+              <button class="col btn btn-border" type="button">Maggiori informazioni</button>
             </div>
               <div class="col-sm-12 col-md-6 col-xxl-6"> <div><img src="img/playstation-5-thumb.png" alt="playstation"></div></div>
           </div>
         </section>
 
-
-        <!-- <section class="py-5 container four">
-          <div class="col-6 container-fluid py-5">
-              <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-              <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-              <button class="btn btn-primary btn-lg" type="button">Example button</button>
-          </div>
-           <div class="container-fluid py-6"><img height="700" src="img/playstation-5-thumb.png" alt="playstation"></div></div>
-        </section> -->
-
         </section>
 
         <section class="five">
-          <div class="container-fluid py-5">
+          <div class="container-fluid col-11 py-5">
             <div class="row">
-              <div class="col py-3"><div><img height="150" src="img/playstation-5-thumb.png" alt=""></div>Console PS5</div>
-              <div class="col py-3"> <div><img height="150" src="img/joypad-thumb.png" alt=""></div>Controller wireless DualSense™</div>
-              <div class="col py-3"><div><img height="150" src="img/headset-thumb.png" alt=""></div>Cuffie wireless con microfono PULSE 3D™</div>
-              <div class="col py-3"> <div><img height="150" src="img/remote-thumb.png" alt=""></div>Telecomando Media</div>
-              <div class="col py-3"><div><img height="150" src="img/camera-thumb.jpg" alt=""></div>Telecamera HD</div>
+              <div class="item col py-3"><div><img height="150" src="img/playstation-5-thumb.png" alt=""></div>Console PS5</div>
+              <div class="item col py-3"> <div><img height="150" src="img/joypad-thumb.png" alt=""></div>Controller wireless DualSense™</div>
+              <div class="item col py-3"><div><img height="150" src="img/headset-thumb.png" alt=""></div>Cuffie wireless con microfono PULSE 3D™</div>
+              <div class="item col py-3"> <div><img height="150" src="img/remote-thumb.png" alt=""></div>Telecomando Media</div>
+              <div class="item col py-3"><div><img height="150" src="img/camera-thumb.jpg" alt=""></div>Telecamera HD</div>
           </div>
         </section>
         
@@ -165,160 +145,129 @@
               <div class="col">
                 <h2 class="col-sm-12 col-xxl-4 display-5 fw-light" style="color: #fff">Un'avventura cooperativa selvaggia ti attende</h2>
                 <p class="col-sm-12 col-xxl-4 py-4 fs-5 fw-light" style="color: #fff">Trova un amico e partite insieme per l'avventira più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere</p>
-              <button class="col btn btn-primary btn-lg" type="button">Maggiori informazioni</button>
-            </div>
+                <button class="col btn btn-border" style="color: #fff; background-color: #CD3C10;" type="button">Acquista ora</button>
+              </div>
           </div>
         </section>
-
-
-        <!-- <p class="col-md-9 py-3 fs-4 fw-light" id="text">Trova un amico e partite insieme per l'avventira più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere</p> -->
-
-        
-
-        <!-- <section class="jumbo py-5 six" style="background-image: url(img/it-takes-two-hero-banner-desktop.jpg);">
-          <div class="container-fluid col-11">
-            <div class="row ms mpy-5">
-              <div><img height="150" src="img/it-takes-two-logo.png" alt=""></div>
-              <div class="col-7"><h2 class="display-5 col-7 py-3 fw-light">Un'avventura cooperativa selvaggia ti attende</h2>
-              <p class=" col-md-8 py-8 fs-4 fw-light">Trova un amico e partite insieme per l'avventira più folle delle vostre vite in It Takes Two, un gioco d0avventura cooperativa a piattaforme che stravolge il suo genere.</p>
-              <button class="col btn btn-primary btn-lg" type="button">Acquista ora</button>
-            </div>
-          </div>
-        </section> -->
-
-        
 
         <section class="seven">
           <div class="container-fluid col-9 py-5">
             <div class="row">
-              <div class="col-12 py-3"><h2>Nuove uscite</h2><h5 class="py-2">Giochi incredibili per PS4 e PS5 disponibili ora</h5></div>
-              <div class="col col-sx-6 py-3"><div><img height="150" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></div>Tony Hawk's Pro Skater 1+2</div>
-              <div class="col col-sx-6 py-3"> <div><img height="150" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></div>Crash Bandicoor 4: It's About Time</div>
-              <div class="col col-sx-6 py-3"><div><img height="150" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></div>Tony Hawk's Pro Skater 1+2</div>
-              <div class="col col-sx-6 py-3"> <div><img height="150" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></div>Crash Bandicoor 4: It's About Time</div>
-              <div class="col col-sx-6 py-3"><div><img height="150" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></div>Tony Hawk's Pro Skater 1+2</div>
-              <div class="col col-sx-6 py-3"> <div><img height="150" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></div>Crash Bandicoor 4: It's About Time</div>
-              <div class="col col-sx-6 py-3"><div><img height="150" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></div>Tony Hawk's Pro Skater 1+2</div>
-              <div class="col col-sx-6 py-3"> <div><img height="150" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></div>Crash Bandicoor 4: It's About Time</div>
-              <div class="col col-sx-6 py-3"><div><img height="150" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></div>Tony Hawk's Pro Skater 1+2</div>
-              <div class="col col-sx-6 py-3"> <div><img height="150" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></div>Crash Bandicoor 4: It's About Time</div>
-              <div class="col col-sx-6 py-3"><div><img height="150" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></div>Tony Hawk's Pro Skater 1+2</div>
-              <div class="col col-sx-6 py-3"> <div><img height="150" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></div>Crash Bandicoor 4: It's About Time</div>
+              <div class="col col-12 py-2"><h2>Nuove uscite</h2><h5 class="py-2">Giochi incredibili per PS4 e PS5 disponibili ora</h5></div>
+              <div class="col-xxs-6 col-xs-6 col-sm-6 col-md-3 col-xxl-2 py-3"><div><img class=" item" height="150" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></div><div class="pt-3">Tony Hawk's Pro Skater 1+2</div></div>
+              <div class="col-xxs-6 col-xs-6 col-sm-6 col-md-3 col-xxl-2 py-3"> <div><img class=" item" height="150" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></div><div class="pt-3">Crash Bandicoor 4: It's About Time</div></div>
+              <div class="col-xxs-6 col-xs-6 col-sm-6 col-md-3 col-xxl-2 py-3"><div><img class=" item" height="150" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></div><div class="pt-3">Tony Hawk's Pro Skater 1+2</div></div>
+              <div class="col-xxs-6 col-xs-6 col-sm-6 col-md-3 col-xxl-2 py-3"> <div><img class=" item" height="150" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></div><div class="pt-3">Crash Bandicoor 4: It's About Time</div></div>
+              <div class="col-xxs-6 col-xs-6 col-sm-6 col-md-3 col-xxl-2 py-3"><div><img class=" item" height="150" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></div><div class="pt-3">Tony Hawk's Pro Skater 1+2</div></div>
+              <div class="col-xxs-6 col-xs-6 col-sm-6 col-md-3 col-xxl-2 py-3"> <div><img class=" item" height="150" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></div><div class="pt-3">Crash Bandicoor 4: It's About Time</div></div>
+              <div class="col-xxs-6 col-xs-6 col-sm-6 col-md-3 col-xxl-2 py-3"><div><img class=" item" height="150" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></div><div class="pt-3">Tony Hawk's Pro Skater 1+2</div></div>
+              <div class="col-xxs-6 col-xs-6 col-sm-6 col-md-3 col-xxl-2 py-3"> <div><img class=" item"height="150" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></div><div class="pt-3">Crash Bandicoor 4: It's About Time</div></div>
+              <div class="col-xxs-6 col-xs-6 col-sm-6 col-md-3 col-xxl-2 py-3"><div><img class=" item" height="150" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></div><div class="pt-3">Tony Hawk's Pro Skater 1+2</div></div>
+              <div class="col-xxs-6 col-xs-6 col-sm-6 col-md-3 col-xxl-2 py-3"> <div><img class=" item"height="150" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></div><div class="pt-3">Crash Bandicoor 4: It's About Time</div></div>
+              <div class="col-xxs-6 col-xs-6 col-sm-6 col-md-3 col-xxl-2 py-3"><div><img class=" item" height="150" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></div><div class="pt-3">Tony Hawk's Pro Skater 1+2</div></div>
+              <div class="col-xxs-6 col-xs-6 col-sm-6 col-md-3 col-xxl-2 py-3"> <div><img class=" item" height="150" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></div><div class="pt-3">Crash Bandicoor 4: It's About Time</div></div>
             </div>   
           </div>
         </section>
-        
-        <section class="row eight">
-          <div class="py-lg-6 col-7 container">
-            <div class="container-fluid py-5">
-              <h2 class="py-3 fw-light">Esplora PlayStation®4</h2>
-              <h3 class="py-3 fs-5 fw-light">Giochi incredibili e intrattenimento senza fine. Non c'è mai stato un momento migliore per giocare sulla tua PS4.</h3>
-            </div>
-          </div>
-        </section>  
+ 
+        <section class="eight">
+          <div class="py-5 text-center">
+            <div class="row">
+              <div class="col-lg-6 col-md-8 mx-auto">
+                <div class="col">
+                <h2 class="col display-5 fw-light" style="color: #000001;">Esplora PlayStation®4</h2>
+                <p class="fs-5 py-4 fw-light" style="color: #7F7F7F">Giochi incredibili e intrattenimento senza fine. Non c'è mai stato un momento migliore per giocare sulla tua PS4.</p>
+              </div>
+        </section>
 
         <section class="nine">
-          <div class="container-fluid py-5">
+          <div class="container-fluid col-11 pb-5">
             <div class="row">
-              <div class="col py-3"><div><img height="190" src="img/ps4-slim-homepage-image-block.jpg" alt=""></div><h2>Playstation 4</h2><h5 class="py-3">Giochi incredibili live su PS4, con spazio di archiviazione.</h5><button class="btn btn-primary btn-lg" type="button">Scopri di più</button></div>
-              <div class="col py-3"> <div><img height="190" src="img/double11-202010-tw-psvr.jpg" alt=""></div><h2>PlayStation VR</h2><h5 class="py-3">Oltre 500 titoli ed espenenze di gioco. Scoonli tutti</h5><button class="btn btn-primary btn-lg" type="button">Scopri di più</button></div>
-              <div class="col py-3"><div><img  height="190" src="img/dualshock-4-listing-thumb.jpg" alt=""></div><h2>Accessori</h2><h5 class="py-3">Migliora la tua espenenza PS4 con una edmilld d accessori ufficiali.</h5><button class="btn btn-primary btn-lg" type="button">Scopri di più</button></div>
+              <div class="col-sm-12 col-md-4 py-3 text-start"><div><img height="190" src="img/ps4-slim-homepage-image-block.jpg" alt=""></div><h2 style="color:#000001">Playstation 4</h2><h5 class="pb-3" style="color: #7F7F7F">Giochi incredibili live su PS4, con spazio di archiviazione.</h5><button class="col btn btn-border" type="button">Maggiori informazioni</button></div>
+              <div class="col-sm-12 col-md-4 py-3 text-start"> <div><img height="190" src="img/double11-202010-tw-psvr.jpg" alt=""></div><h2 style="color:#000001">PlayStation VR</h2><h5 class="pb-3" style="color: #7F7F7F">Oltre 500 titoli ed espenenze di gioco. Scoonli tutti</h5><button class="col btn btn-border">Maggiori informazioni</button></div>
+              <div class="col-sm-12 col-md-4 py-3 text-start"><div><img  height="190" src="img/dualshock-4-listing-thumb.jpg" alt=""></div><h2 style="color:#000001">Accessori</h2><h5 class="pb-3" style="color: #7F7F7F">Migliora la tua espenenza PS4 con una edmilld d accessori ufficiali.</h5><button class="col btn btn-border" type="button">Maggiori informazioni</button></div>
           </div>
         </section>
 
-        <section class="py-5 container ten">
-          <div class="container-fluid py-5">
-              <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-              <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-              <button class="btn btn-primary btn-lg" type="button">Example button</button>
-            </div>
+        <section class="ten">
+          <div class="container-fluid col-11">
+            <div class="row align-items-center">
+              <div class="col-md-6 py-sm-5 py-xxl-0 col-sm-12 px-5">
+                <img height="50" width="300" src="img/ps-plus-logo.png" alt="ps_logo">
+                <p class="col-sm-12 col-md-8 col-xxl-10 py-4 fs-5 fw-light text-dark">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online,
+                  giochi mensili, sconti esclusivi e altro ancora.</p>
+                <button class="col btn btn-border" type="button">Maggiori informazioni</button>              </div>
+              <div class="col-md-6 d-none d-md-block immagine">
+                <img width="592" height="500" src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="playstation">
+              </div>
+          </div>
+            
+          </div>
         </section>
 
-        <section class="row eleven">
-          <div class="py-lg-6 col-7 container">
-            <div class="container-fluid py-5">
-              <h2 class="py-3 fw-light">Nuovi sconti sul PlayStation Store</h2>
-              <h3 class="py-3 fs-5 fw-light">Sconti pazzeschi, collezioni curate e saldi stagionali su PS5. PS4 e PS VR. tutti in un unico posto.</h3>
-            </div>
-          </div>
-        </section> 
+        <section class="eight">
+          <div class="py-5 text-center">
+            <div class="row">
+              <div class="col-lg-6 col-md-8 mx-auto">
+                <div class="col">
+                <h2 class="col display-5 fw-light" style="color: #000001;">Nuovi sconti sul PlayStation Store</h2>
+                <p class="col fs-5 py-4 fw-light" style="color: #7F7F7F">Sconti pazzeschi, collezioni curate e saldi stagionali su PS5. PS4 e PS VR. tutti in un unico posto.</p>
+              </div>
+        </section>
 
         <section class="twelve">
-          <div class="container-fluid py-5 col-11">
+          <div class="container-fluid">
             <div class="row">
-              <div class="col-md-4 col-sm-12 py-3"><div><img src="img/playstation-store-games-under-20-spotlight.jpg" alt=""></div></div>
-              <div class="col-md-4 col-sm-12 py-3"> <div><img src="img/playstation-store-golden-week-sale-spotlight.jpg" alt=""></div></div>
-              <div class="col-md-4 col-sm-12 py-3"><div><img  src="img/playstation-store-free-to-play-spotlight.png" alt=""></div></div>
+              <div class="col-md-4 col-sm-12 py-3"><div><img height="240" src="img/playstation-store-games-under-20-spotlight.jpg" alt=""></div></div>
+              <div class="col-md-4 col-sm-12 py-3"><div><img height="240" src="img/playstation-store-golden-week-sale-spotlight.jpg" alt=""></div></div>
+              <div class="col-md-4 col-sm-12 py-3"><div><img height="240" src="img/playstation-store-free-to-play-spotlight.png" alt=""></div></div>
           </div>
         </section>
-        <!-- qui -->
-        <!-- <section class="jumbo thirteen">
-          <div class="row align-items-center">
-            <div class="py-5">
-              <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-              <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-              <button class="btn btn-primary btn-lg" type="button">Maggiori informazioni</button>
-            </div>
-            <div class=""><img src="img/ps-now-april-featured-image-block.png" height="500" alt=""></div> -->
-            
-          <!-- </div>
-        </section> --> 
-
+        
         <section class="thirteen">
           <div class="container-fluid col-11">
-            <div class="row align-items-center ms mpy-5">
-              <div class="col"><h2 class="display-5 fw-light">Console PlayStation 5</h2>
-              <p class="col-md-8 py-3 fs-4 fw-light">Sperimenta la nuova generazione di incredibili giochi PlayStation.</p>
-              <button class="col btn btn-primary btn-lg" type="button">Maggiori informazioni</button>
-            </div>
-              <div class="col"> <div><img height="500" src="img/ps-now-april-featured-image-block.png" alt="playstation"></div></div>
+            <div class="row align-items-center">
+              <div class="col-sm-12 py-sm-5 col-md-6 px-5">
+                <img height="50" width="300" src="img/ps-plus-logo.png" alt="ps_logo">
+                <p class="col-sm-12 col-md-8 col-xxl-10 py-4 fs-5 fw-light">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
+                <button class="col btn btn-border" type="button">Maggiori informazioni</button>
+              </div>
+              <div class="col-md-6 d-none d-md-block immagine">
+                <img width="592" height="500" src="img/ps-now-april-featured-image-block.png" alt="playstation">
+              </div>
+          </div>
+            
           </div>
         </section>
 
-
-
-
-
-
-
-        <!-- <section class="py-5 container thirteen">
-          <div class="container-fluid py-5">
-              <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-              <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-              <button class="btn btn-primary btn-lg" type="button">Example button</button>
-            </div>
-        </section> -->
-
-        <section class="row fourteen">
-          <div class="py-lg-6 col-5 container">
-            <div class="container-fluid">
-              <h2 class="py-5 fw-light">Seguici sui social media</h2>
-            </div>
-          </div>  
+        <section class="fourteen">
+          <div class="row container-fluid">
+            <h2 class=" col-12 py-5 fw-light" style="color: #000001;">Seguici sui social media</h2>
+          </div>
         </section>
         
         <section class="fifteen py-5">
         <div class="container-fluid col-7">
           <div class="row">
-            <div class="col py-4 col-sx-6"><div><img height="150" src="img/twitter.jpg" alt=""></div></div>
-            <div class="col py-4 col-sx-6"> <div><img height="150" src="img/facebook.jpg" alt=""></div></div>
-            <div class="col py-4 col-sx-6"><div><img height="150" src="img/instagram.jpg" alt=""></div></div>
-            <div class="col py-4 col-sx-6"> <div><img height="150" src="img/youtube.png" alt=""></div></div>
+            <div class="col col-sx-6"><div><img height="150" src="img/twitter.jpg" alt=""></div></div>
+            <div class="col col-sx-6"> <div><img height="150" src="img/facebook.jpg" alt=""></div></div>
+            <div class="col col-sx-6"><div><img height="150" src="img/instagram.jpg" alt=""></div></div>
+            <div class="col col-sx-6"> <div><img height="150" src="img/youtube.png" alt=""></div></div>
           </div>
         </div>
       </section>
       </main>
       
       <footer>
-        <div class="container-fluid py-5 col-11">
-          <div class="row">
-            <div class="col-sm-6  py-0"><div><img height="150" src="img/play_logo_footer.svg" alt=""></div><img height="20" src="img/language-globe.svg" alt="">  Country / Region: Italy</div>
-            <div class="col py-3 text-footer"><div class="py-2">Facebook</div><div class="py-2">Twitter</div><div class="py-2">YouTube</div><div class="py-2">Instagram</div></div>
-            <div class="col py-3 text-footer"><div class="py-2">Facebook</div><div class="py-2">Twitter</div><div class="py-2">YouTube</div><div class="py-2">Instagram</div><div class="py-2">Facebook</div><div class="py-2">Twitter</div><div class="py-2">YouTube</div></div>
-            <div class="col py-3 text-footer"><div  class="py-2">Facebook</div><div class="py-2">Twitter</div><div  class="py-2">YouTube</div><div  class="py-2">Instagram</div></div>
+        <div class="container-fluid col-11">
+          <div class="row pt-5">
+            <div class="col-sm-12 col-xxl-6  py-0"><div><img height="150" width="150" src="img/play_logo_footer.svg" alt=""></div><img class="planet mx-4" height="20" width="20" src="img/language-globe.svg" alt="">  Country / Region: Italy</div>
+            <div class="col-sm-12 col-md-4 col-xxl-2 py-3 text-start text-footer"><div class="py-2">Facebook</div><div class="py-2">Twitter</div><div class="py-2">YouTube</div><div class="py-2">Instagram</div></div>
+            <div class="col-sm-12 col-md-4 col-xxl-2 py-3 text-start text-footer"><div class="py-2">Facebook</div><div class="py-2">Twitter</div><div class="py-2">YouTube</div><div class="py-2">Instagram</div><div class="py-2">Facebook</div><div class="py-2">Twitter</div><div class="py-2">YouTube</div></div>
+            <div class="col-sm-12 col-md-4 col-xxl-2 py-3 text-start text-footer"><div  class="py-2">Facebook</div><div class="py-2">Twitter</div><div  class="py-2">YouTube</div><div  class="py-2">Instagram</div></div>
           </div>
         <div class="row">
-          <div class="col-6 py-5"><div><img height="50" src="img/sie-logo.svg" alt=""></div>
+          <div class="col-6 py-5"><div><img class="" height="120" width="120" src="img/sie-logo.svg" alt=""></div>
           <di class="col">Website ©2022 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati. Maggiori info</div>
         </div>
       </div>
